@@ -1,0 +1,21 @@
+.bord {
+	border: 2px solid black;
+	margin: 50px;
+	padding: 50px;
+}
+
+.first {
+	background-color: pink;
+}
+
+.second {
+	background-color: green;
+}
+
+.third {
+	background-color: yellow;
+}
+
+.four {
+	background-color: blue;
+}
