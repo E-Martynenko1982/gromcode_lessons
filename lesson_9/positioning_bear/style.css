@@ -4,9 +4,11 @@
 
 .header {
 	width: 100%;
-	position: fixed;
 	background-color: darkturquoise;
 	height: 40px;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
 }
 
 .navigation {
