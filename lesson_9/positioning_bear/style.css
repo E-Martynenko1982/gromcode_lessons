@@ -3,21 +3,21 @@
 }
 
 .header {
+	width: 100%;
 	position: fixed;
-
 	background-color: darkturquoise;
 	height: 40px;
-	line-height: 40px;
 }
 
 .navigation {
 	height: 40px;
 }
-
+.nav-list li {
+	display: inline-block;
+}
 .nav-item {
 	color: white;
 	margin-left: 16px;
-	float: left;
 	list-style: none;
 }
 
