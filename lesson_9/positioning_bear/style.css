@@ -3,6 +3,8 @@
 }
 
 .header {
+	position: fixed;
+	width: 100%;
 	background-color: darkturquoise;
 	height: 40px;
 	line-height: 40px;
