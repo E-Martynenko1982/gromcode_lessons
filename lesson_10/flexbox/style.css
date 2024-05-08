@@ -4,11 +4,9 @@
 .container {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .block {
+	flex: 1 0 100px;
 	height: 100px;
-	min-width: 100px;
-	flex-grow: 1;
 }
