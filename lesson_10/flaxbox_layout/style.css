@@ -2,20 +2,23 @@
 	box-sizing: border-box;
 	margin: 0;
 }
+
 .header {
 	height: 40px;
 	background-color: yellow;
 	display: flex;
 	align-items: center;
 }
-
+.navigation {
+	margin-left: -16px;
+}
 .nav-list {
 	display: flex;
 	list-style: none;
 }
 
 .nav-list__item {
-	margin: 0 16px 0 0;
+	margin-right: 16px;
 }
 
 .main-section {
@@ -31,7 +34,9 @@
 	margin-top: 16px;
 	margin-bottom: 16px;
 }
-
+.aside-list {
+	margin-left: -16px;
+}
 .aside-list__item {
 	line-height: 40px;
 	margin-left: 16px;
