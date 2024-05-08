@@ -15,7 +15,7 @@
 }
 
 .nav-list__item {
-	margin-left: 16px;
+	margin-right: 16px;
 }
 
 .main-section {
@@ -79,5 +79,5 @@
 }
 
 .aside-list__item {
-	padding-right: 16px;
+	margin-left: -16px;
 }
