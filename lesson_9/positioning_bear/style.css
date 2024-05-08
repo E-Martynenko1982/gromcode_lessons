@@ -10,17 +10,17 @@
 	top: 0;
 	z-index: 1000;
 }
-
 .navigation {
-	height: 40px;
 }
-.nav-list li {
-	display: inline-block;
+.nav-list {
+	margin: 0;
+	line-height: 40px;
+	list-style: none;
 }
 .nav-item {
 	color: white;
+	float: left;
 	margin-left: 16px;
-	list-style: none;
 }
 
 .content {
