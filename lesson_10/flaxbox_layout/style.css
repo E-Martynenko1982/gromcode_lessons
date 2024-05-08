@@ -65,6 +65,9 @@
 .main-title {
 	margin: auto;
 }
+.aside {
+	width: 200px;
+}
 
 .aside-title {
 	text-align: center;
