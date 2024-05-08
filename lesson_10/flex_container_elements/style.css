@@ -1,15 +1,20 @@
 * {
 	box-sizing: border-box;
 }
-.horizontal {
+
+div.horizontal {
 	height: 50px;
+}
+.horizontal {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
 }
 
-.vertical {
+div.vertical {
 	height: 200px;
+}
+.vertical {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
