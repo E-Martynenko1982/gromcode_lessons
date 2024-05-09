@@ -1,13 +1,14 @@
 html {
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
-	margin: 32px;
 }
 
 * {
 	box-sizing: border-box;
 }
-
+body {
+	margin: 32px;
+}
 h1 {
 	word-spacing: 20px;
 	text-align: center;
