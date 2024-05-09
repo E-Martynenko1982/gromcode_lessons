@@ -16,6 +16,10 @@
 }
 .dropdown:hover {
 	opacity: 1;
+	color: white;
+}
+
+.menu-button:hover {
 	font-size: 16px;
 	color: white;
 }
