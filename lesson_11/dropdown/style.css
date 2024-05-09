@@ -21,7 +21,6 @@
 }
 
 .menu-list {
-	margin-left: -16;
 	padding: 0;
 	list-style-type: none;
 	background-color: lightcyan;
@@ -30,7 +29,7 @@
 	min-width: 120px;
 	position: absolute;
 	z-index: 1;
-	/* display: none; */
+	display: none;
 }
 
 .menu-item {
