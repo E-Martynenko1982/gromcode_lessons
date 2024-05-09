@@ -2,15 +2,19 @@
 	box-sizing: border-box;
 }
 .dropdown {
-	margin: 16px;
-	background-color: darkgreen;
-	display: inline-block;
-	padding: 16px;
-	color: white;
-	opacity: 0.8;
-	cursor: pointer;
+	margin-left: 16px;
+	margin-top: 16px;
 }
 
+.menu-button {
+	display: inline-block;
+	padding: 16px;
+	background-color: darkgreen;
+	opacity: 0.8;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+}
 .dropdown:hover .menu-list {
 	display: block;
 }
@@ -26,6 +30,7 @@
 }
 
 .menu-list {
+	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	background-color: lightcyan;
