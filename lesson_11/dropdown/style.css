@@ -14,7 +14,7 @@
 .dropdown:hover .menu-list {
 	display: block;
 }
-.menu-button {
+.dropdown:hover .menu-button {
 	opacity: 1;
 	font-size: 16px;
 	color: white;
