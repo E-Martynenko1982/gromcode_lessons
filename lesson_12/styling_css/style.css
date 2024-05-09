@@ -2,12 +2,14 @@ html {
   font-family: Verdana, sans-serif;
 }
 
-header h1 {
-  width: 50%;
+h1 {
   font-size: 74px;
   text-align: center;
-
+  margin: auto;
+  overflow: hidden;
+  white-space: nowrap;
   text-overflow: ellipsis;
+  width: 50%;
 }
 
 div {
