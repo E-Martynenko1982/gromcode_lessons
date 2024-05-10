@@ -34,6 +34,7 @@
 .caption {
   list-style: 30px;
   text-align: center;
+  text-transform: lowercase;
 }
 
 .gallery {
