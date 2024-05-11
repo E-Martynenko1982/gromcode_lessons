@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.form-container {
+  margin: 32px;
+}
+
+.form-item {
+  margin: 8px;
+}
