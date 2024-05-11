@@ -9,3 +9,7 @@
 .form-item {
   margin: 8px;
 }
+
+input[type='radio'] {
+  margin-right: 4px;
+}
