@@ -46,6 +46,7 @@ input {
 
 .submit-button {
   width: 100%;
+  height: 32px;
   background-color: #ff7f50;
   margin-top: 16px;
   text-transform: uppercase;
