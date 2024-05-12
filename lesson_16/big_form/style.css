@@ -7,9 +7,14 @@
 }
 
 .form-item {
-  margin: 8px;
+  margin: 8px 0;
 }
 
-/* input[type='radio'] {
-  margin-right: 6px;
-} */
+select {
+  margin-left: 0;
+}
+
+select option {
+  padding: 0;
+  margin: 0;
+}
