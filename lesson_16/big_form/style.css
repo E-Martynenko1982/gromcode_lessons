@@ -7,11 +7,7 @@
 }
 
 .form-item {
-  margin: 8px 0;
-}
-
-select {
-  margin-left: 0;
+  margin: 8px auto;
 }
 
 select {
