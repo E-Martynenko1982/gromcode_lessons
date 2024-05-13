@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.spinner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner span {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: monospace;
+  animation: blinking 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.rect {
+  width: 10px;
+  height: 4px;
+  border-radius: 2px;
+  animation: blinking 2s, moving 2s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+
+  to {
+    left: 70px;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
