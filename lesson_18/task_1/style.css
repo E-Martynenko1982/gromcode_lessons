@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.small-bird {
+  width: 64px;
+  height: 64px;
+  display: inline;
+  margin: 0 auto;
+}
+
+.large-bird {
+  width: 320px;
+  height: 320px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
