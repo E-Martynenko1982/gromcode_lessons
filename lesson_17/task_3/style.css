@@ -19,15 +19,6 @@ tr:not(:first-child, :last-child):nth-child(odd) td:not(:first-child, :last-chil
   background-color: black;
 }
 
-tr:not(:first-child, :last-child),
-td:not(:first-child, :last-child) {
+tr:not(:first-child, :last-child) td:not(:first-child, :last-child) {
   border: 1px solid black;
-}
-
-tr:first-child td,
-tr:last-child td {
-  border-left: none;
-  border-right: none;
-  /* border-top: none;
-  border-bottom: none; */
 }
