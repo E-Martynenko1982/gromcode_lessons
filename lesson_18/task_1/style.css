@@ -15,13 +15,12 @@
 }
 
 .row {
-  width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .column {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
