@@ -42,9 +42,8 @@
   border-right: 4px solid lightgray;
   border-bottom: 4px solid lightgray;
   border-radius: 50%;
-  /* margin-bottom: 8px; */
-  margin: auto;
-  margin-bottom: 8px;
+  margin: 0 auto 8px;
+
   animation: spin 2s linear infinite;
 }
 
