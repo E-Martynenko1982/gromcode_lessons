@@ -13,20 +13,26 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-h1 {
-  margin: auto;
-  color: white;
-}
 
 .header {
   font-size: 2em;
   display: flex;
   background-image: linear-gradient(45deg, red, orange);
+  white-space: nowrap;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  padding: auto;
+  width: 100%;
+  text-align: center;
 }
 
 .footer {
   background-color: #e5e5e5;
   padding: 0.5em;
+  text-align: center;
 }
 
 .main {
