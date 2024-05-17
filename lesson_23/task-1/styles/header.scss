@@ -14,7 +14,7 @@
 
   list-style-type: none;
   &__item {
-    border-radius: $unit;
+    border-radius: $unit / 2;
     color: $text-color-secondary;
     padding: $unit;
     margin-left: $unit;
