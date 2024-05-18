@@ -4,13 +4,17 @@
 
 .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
 }
 
-@media screen and (orientation: landscape) {
+@media (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media (orientation: landscape) {
   .container {
     flex-direction: row;
   }
