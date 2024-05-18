@@ -9,11 +9,6 @@
   justify-content: center;
   height: 100vh;
 }
-@media screen and (min-width: 600px) {
-  .container {
-    flex-direction: row;
-  }
-}
 
 .square {
   width: 100px;
