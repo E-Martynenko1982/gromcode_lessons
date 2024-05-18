@@ -19,6 +19,9 @@
 .header nav .menu__item.menu__item_active .menu__item-text {
   color: yellow;
 }
+.header nav .menu__item:hover {
+  background-color: #9acd32;
+}
 .header nav .menu .submenu {
   display: flex;
   flex-direction: column;

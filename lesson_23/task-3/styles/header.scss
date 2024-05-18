@@ -21,7 +21,9 @@
           color: yellow;
         }
       }
-
+      &__item:hover {
+        background-color: #9acd32;
+      }
       .submenu {
         display: flex;
         flex-direction: column;
