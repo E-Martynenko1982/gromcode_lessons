@@ -3,4 +3,27 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+}
+body span {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.38px;
+}
+body .container {
+  width: 1176px;
+  height: 770px;
+  background-color: burlywood;
+}
+
 /*# sourceMappingURL=style.css.map */

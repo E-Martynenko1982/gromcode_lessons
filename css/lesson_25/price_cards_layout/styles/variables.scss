@@ -1,0 +1,15 @@
+$color_theme1: #5bb189;
+$color_theme2: #3a6ba5;
+$color_theme3: #ec632a;
+
+@mixin title-style-h1 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.67px;
+}
+
+@mixin title-style-span {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24.38px;
+}

@@ -1,4 +1,26 @@
+@import "./variables.scss";
+
 * {
   font-family: "Montserrat", sans-serif;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #141b1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  h1 {
+    @include title-style-h1;
+  }
+  span {
+    @include title-style-span;
+  }
+  .container {
+    width: 1176px;
+    height: 770px;
+    background-color: burlywood;
+  }
 }

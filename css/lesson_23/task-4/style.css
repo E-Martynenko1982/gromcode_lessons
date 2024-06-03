@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.main .text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+  text-transform: lowercase;
+}
+.main .block {
+  min-height: 200px;
+  display: flex;
+}
+.main .block-1 {
+  flex: 1;
+  background-color: #ff7f50;
+}
+.main .block-2 {
+  flex: 1;
+  background-color: #006400;
+}
+.main .block-3 {
+  flex: 1;
+  background-color: #0ff;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    display: flex;
+    flex: 2;
+  }
+}
+@media screen and (min-width: 900px) {
+  .main {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
